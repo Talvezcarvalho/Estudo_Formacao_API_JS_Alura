@@ -1,0 +1,1 @@
+var lista = ["Laranja", "Vermelho", "Branco", "Amarelo", "Rosa"]; 

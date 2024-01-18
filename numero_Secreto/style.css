@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+:root {
+    --fonte-padrao : 'Roboto', sans-serif;
+    --cor-primaria : #0C356A;   
+    --cor-secundaria :#40F8FF ;
+    --cor-terciaria : #279EFF;
+    --cor-quartenaria : #D5FFD0;
+}
+
+
+body {
+    font-family: var(--fonte-padrao);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    font-family: var(--fonte-padrao);
+    background-color: var(--cor-terciaria);
+    
+}
+
+.titulo {
+    font-weight: bold;
+    font-size: 7em;
+    text-align: center;
+}
+.regra {
+    font-size: 2em;
+    font-weight: 500;
+}
+.resposta {
+    font-size: 2em;
+    font-weight: bold;
+    font-weight: 500;
+    color: var(--cor-primaria);
+}
+.dica {
+    font-size: 2em;
+    font-weight: 500;
+}
+.box {
+    margin: 20px;
+    padding: 10px;
+    font-size: 5em;
+    border: 5px solid var(--cor-primaria);
+    border-radius: 10px;
+    display: inline-block;
+}
+.purple {
+    color: var(--cor-primaria);
+}
+.chute {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.restart_button {
+    border-radius: 10px;
+    border: none;
+    font-size: 2em;
+    font-family: var(--fonte-padrao);
+    font-weight: bold;
+    color: var(--cor-quartenaria);
+    text-decoration: none;
+    background-color: var(--cor-primaria);
+    padding: 15px;
+    margin: auto;
+}
+.transition {
+    background-color: #40F8FF;
+    transition: background-color 1 ease;
+}
